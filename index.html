@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SohezSoft is a startup founded by Sohel Sayyed in 2024, specializing in Android apps, websites, and SEO services. We help businesses establish a strong digital presence.">
+    <meta name="keywords" content="Android apps, websites, SEO, web development, SohezSoft, Sohel Sayyed">
+    <meta name="author" content="Sohel Sayyed">
+    <title>SohezSoft | Android Apps, Websites, SEO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SohezSoft</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Transform Your Digital Presence</h2>
+            <p>At SohezSoft, we create innovative Android apps, responsive websites, and provide SEO services that drive success.</p>
+            <a href="#services" class="cta-btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <h3>Android App Development</h3>
+                <p>We specialize in creating user-friendly and powerful Android applications that meet your business goals and deliver excellent user experiences.</p>
+            </div>
+            <div class="service-card">
+                <h3>Website Development</h3>
+                <p>Our team builds visually appealing, mobile-friendly websites that not only look great but also function seamlessly across all devices.</p>
+            </div>
+            <div class="service-card">
+                <h3>SEO Services</h3>
+                <p>We offer comprehensive SEO strategies to help your website rank higher on search engines, increase traffic, and build online authority.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Founded by Sohel Sayyed in 2024, SohezSoft is dedicated to providing top-tier Android app development, website creation, and SEO services. Our mission is to help businesses grow digitally and achieve their goals by offering cutting-edge technology and digital strategies.</p>
+            <p>With a focus on quality and customer satisfaction, we ensure every project is executed with precision and care. We believe in building long-term relationships with our clients and empowering them with the best digital solutions.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Mobile App for ABC Corporation</h3>
+                <p>Developed a custom mobile app for ABC Corporation, improving their customer engagement and streamlining business operations.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Website for XYZ Retail</h3>
+                <p>Designed and developed a fully responsive e-commerce website for XYZ Retail, increasing their online sales by 50%.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>SEO Strategy for 123 Enterprises</h3>
+                <p>Created a comprehensive SEO strategy for 123 Enterprises, boosting their website traffic by 200% in six months.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you're interested in working with us or have any inquiries, please get in touch. We would love to hear from you!</p>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SohezSoft. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
